@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="hero-copy">
         <p className="eyebrow">a long-distance love story</p>
         <h1><span>Angel</span><b>&amp;</b><span>Amal</span></h1>
-        <div className="hero-date"><strong>23RD JULY</strong><span>PARISH OF ST SEBASTIAN KNANAYA CHURCH, PEROOR</span></div>
+        <div className="hero-date"><strong>23RD JULY</strong></div>
         <a className="scroll-cue" href="#call-response">scroll into our story <i>↓</i></a>
       </div>
       <div className="hero-person hero-amal">
