@@ -5,8 +5,8 @@ import { useEffect, useRef } from "react";
 
 const clamp = (value: number) => Math.max(0, Math.min(1, value));
 const smooth = (value: number) => { const x = clamp(value); return x * x * x * (x * (x * 6 - 15) + 10); };
-const callCopy = "Achachaaaaaaa";
-const replyCopy = "Enthuvaa?...";
+const callCopy = "Ichaaaa";
+const replyCopy = "Kocheeee";
 const dotCopy = "............";
 
 function LetteredWord({ copy, guide, kind, className, textLength }: { copy: string; guide: string; kind: "call" | "reply"; className: string; textLength: number }) {

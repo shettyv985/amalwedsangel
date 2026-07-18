@@ -87,6 +87,9 @@ footer i { color: var(--berry); font-style: italic; }
 .hero-copy h1 b { display: block; margin: .18em 0 .1em; color: var(--berry); font: 600 .35em/1 var(--font-hand), cursive; transform: rotate(-7deg); }
 .hero-date { display: inline-flex; padding: 12px 24px 11px; color: #fff; background: var(--berry); box-shadow: 7px 7px 0 var(--ink); transform: rotate(-1deg); }
 .hero-date strong { font: 600 1.65rem/1 var(--font-hand), cursive; letter-spacing: .04em; }
+.hero-subline { width: fit-content; max-width: min(520px, 92vw); margin: 24px auto 0; padding: 9px 18px 10px; color: var(--ink); background: rgba(255, 241, 181, .72); box-shadow: 0 3px 0 rgba(201,52,104,.25); font: 750 clamp(1rem, 1.55vw, 1.28rem)/1.2 var(--font-sans), sans-serif; letter-spacing: .02em; transform: rotate(.7deg); }
+.hero-disclaimer { width: min(500px, 88vw); margin: 16px auto 0; padding: 14px 18px; border: 1px dashed rgba(50,17,63,.28); border-radius: 18px 18px 18px 5px; background: rgba(255,255,255,.72); box-shadow: 6px 7px 0 rgba(239,159,189,.26); font-size: .9rem; line-height: 1.45; }
+.hero-disclaimer strong { color: var(--berry); font-weight: 850; }
 .scroll-cue { display: block; margin: 31px auto 0; font: 600 1.2rem/1 var(--font-hand), cursive; }
 .scroll-cue i { display: inline-grid; margin-left: 8px; width: 28px; height: 28px; place-items: center; border: 1px solid var(--ink); border-radius: 50%; font-style: normal; }
 .hero-person { position: absolute; z-index: 4; }
@@ -156,7 +159,7 @@ footer i { color: var(--berry); font-style: italic; }
 .match-profile strong, .match-profile small, .match-profile b { display: block; }
 .match-profile strong { font: 600 1.55rem/1 var(--font-hand), cursive; }
 .match-profile small { margin-top: 5px; font-size: .76rem; line-height: 1.35; }
-.match-profile b { width: fit-content; margin-top: 8px; padding: 5px 11px; border-radius: 999px; color: #fff; background: #ef9ba7; font-size: .7rem; font-weight: 700; }
+.match-profile b { width: fit-content; max-width: 100%; margin-top: 8px; padding: 6px 11px; border-radius: 999px; color: #fff; background: #ef9ba7; font-size: .7rem; font-weight: 700; line-height: 1.35; }
 .match-result { margin-top: 15px; padding: 17px 12px; text-align: center; border: 1.5px dashed rgba(201,52,104,.3); border-radius: 18px; background: #fff5f3; }
 .match-result span, .match-result strong { display: block; }
 .match-result span { margin-bottom: 4px; font-size: 1.35rem; }
@@ -171,6 +174,7 @@ footer i { color: var(--berry); font-style: italic; }
 .matrimony-line span, .matrimony-line strong { display: block; }
 .matrimony-line span { font: 600 1.35rem/1.2 var(--font-hand), cursive; color: var(--berry); }
 .matrimony-line strong { margin-top: 8px; font: 700 clamp(2rem, 4.5vw, 4rem)/1 var(--font-serif), serif; }
+.matrimony-line em { display: block; max-width: 650px; margin: 12px auto 0; font: 700 clamp(1.15rem, 2.1vw, 1.55rem)/1.35 var(--font-hand), cursive; color: var(--berry); }
 
 /* long-distance */
 .distance-section { position: relative; min-height: 1000px; color: #fff8e8; background: var(--plum); overflow: hidden; isolation: isolate; }
