@@ -11,5 +11,5 @@ import Story from "../components/Story";
 import WeddingDetails from "../components/WeddingDetails";
 
 export default function Home() {
-  return <main><InvitationGate /><DetailsButton /><Hero /><Story /><CallResponse /><MatrimonyChapter /><LongDistance /><Meeting /><Family /><WeddingDetails /><Blessing /></main>;
+  return <main><InvitationGate /><DetailsButton /><Hero /><Story /><CallResponse /><MatrimonyChapter /><LongDistance /><Meeting /><WeddingDetails /><Family /><Blessing /></main>;
 }

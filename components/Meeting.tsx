@@ -9,13 +9,11 @@ export default function Meeting() {
           <span>Chapter 4:</span>
           <h2>
             Buffering Complete
-            <br />
-            <em>She flew home.</em>
           </h2>
         </Reveal>
 
         <Reveal className="meeting-intro">
-          He showed up, with flowers, butterflies, and excitement.
+          <em>She flew home.</em> He showed up, with flowers, butterflies, and excitement.
         </Reveal>
 
         <Reveal className="meeting-photo-wrap">
