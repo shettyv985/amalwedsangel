@@ -3,11 +3,55 @@ import Reveal from "./Reveal";
 
 export default function Meeting() {
   return (
-    <section className="meeting paper section-pad">
-      <Reveal className="section-heading centered"><p className="eyebrow">chapter four · buffering complete</p><h2>Buffering complete.<br /><em>She flew home.</em></h2></Reveal>
-      <div className="meeting-layout">
-        <Reveal className="meeting-photo-wrap"><span className="meeting-tape" aria-hidden="true" /><figure className="meeting-photo"><Image src="/images/first-meeting.jpg" alt="Angel and Amal meeting at Cochin airport" fill sizes="(max-width: 800px) 86vw, 640px" style={{ objectPosition: "center 18%" }} /></figure><span className="photo-caption">flowers, butterflies, and excitement</span></Reveal>
-        <Reveal className="meeting-copy torn-note"><p className="hand-label">Honestly…</p><p>He showed up with flowers, butterflies, and excitement. We still don&apos;t know what she spotted first: the bouquet, or Amal from six feet above the crowd?</p></Reveal>
+    <section className="meeting meeting-chapter paper">
+      <div className="meeting-page">
+        <Reveal className="meeting-heading">
+          <span>Chapter 4:</span>
+          <h2>
+            Buffering Complete
+            <br />
+            <em>She flew home.</em>
+          </h2>
+        </Reveal>
+
+        <Reveal className="meeting-intro">
+          He showed up, with flowers, butterflies, and excitement.
+        </Reveal>
+
+        <Reveal className="meeting-photo-wrap">
+          <span className="meeting-tape" aria-hidden="true" />
+          <figure className="meeting-photo">
+            <Image
+              src="/images/first-meeting.jpg"
+              alt="Angel and Amal meeting at Cochin airport"
+              fill
+              sizes="(max-width: 800px) 82vw, 620px"
+              style={{ objectPosition: "center 18%" }}
+            />
+          </figure>
+          <span className="meeting-photo-heart" aria-hidden="true">&hearts;</span>
+          <span className="meeting-butterfly" aria-hidden="true">&hearts;</span>
+        </Reveal>
+
+        <Reveal className="meeting-copy torn-note">
+          <div>
+            <p className="hand-label">Honestly...</p>
+            <p>We still don&apos;t know what she spotted first?</p>
+            <ul>
+              <li>The bouquet.</li>
+              <li>Or Amal from six feet above the crowd?</li>
+            </ul>
+          </div>
+          <div className="bouquet-art" aria-hidden="true">
+            <Image
+              src="/images/chapter4-bouquet.png"
+              alt=""
+              width={320}
+              height={480}
+              sizes="(max-width: 600px) 130px, 210px"
+            />
+          </div>
+        </Reveal>
       </div>
     </section>
   );
