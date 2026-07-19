@@ -23,7 +23,7 @@ export default function Family() {
           <span className="amma-tape" aria-hidden="true" />
           <figure className="amma-photo">
             <Image
-              src="/images/amal-mother.jpg"
+              src="/images/amalmom.jpeg"
               alt="Amal's mother"
               fill
               sizes="(max-width: 700px) 78vw, 430px"
